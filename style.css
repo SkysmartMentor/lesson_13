@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'StratosSkyeng', sans-serif;
+    font-size: 20px;
+    min-height: 100vh;
+    padding: 0 40px;
+    background-color: bisque;
+}
+
+fieldset {
+    border: none;
+}
+
+.header {
+    height: 80px;
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.content {
+    display: flex;
+    gap: 25px;
+    width: 80%;
+    margin: auto;
+}
+
+.content__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1.5;
+}
+
+.content__settings {
+    width: 30%;
+    /* border-right: 1px solid grey; */
+    /* box-shadow: 1px 1px 3px 0 grey; */
+    position: fixed;
+    right: 40px;
+}
+
+.content__settings-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.content__text {
+    width: 70%;
+}
+
+.content__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    margin-top: 20px;
+}
+
+.settings, .auth {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.settings__background-color-fildset {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.settings__background-color-label {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.white {
+    background-color: white;
+}
+
+.bisque {
+    background-color: bisque;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.black {
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-top: 1px solid grey;
+    margin-top: 80px;
+}
